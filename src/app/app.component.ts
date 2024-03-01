@@ -11,6 +11,7 @@ import "froala-editor/js/plugins.pkgd.min.js";
 export class AppComponent {
   title = 'froala-test';
   options = {
+    imageDefaultDisplay: "inline",
     width: 1000
   };
 }
